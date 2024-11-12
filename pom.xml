@@ -30,9 +30,9 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.13.0</version>
+          <version>3.8.1</version>
           <configuration>
-            <release>17</release>
+            <release>11</release>
           </configuration>
         </plugin>
       </plugins>
@@ -66,7 +66,7 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.9.2,)</version>
+                  <version>[3.8.1,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
                   <version>[11,)</version>
